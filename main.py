@@ -33,9 +33,9 @@ getErrorDescription = ['Request does not contain any info', 'Username is missing
                        'MAC address is missing', 'MAC address is invalid:invalid_mac_address', 'Invalid credentials',
                        'License is not configured for user']
 
-passwordReference = ['donno', 'supersecret']
+passwordReference = ['donno', 'supersecret', 'juan123']
 
-userReference = ['test8', 'john_doe']
+userReference = ['test8', 'john_doe', 'juan']
 
 class ServerHandler(BaseHTTPRequestHandler):
     request_body = ""
